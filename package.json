@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A toy lisp language made for the Compilers college class",
   "scripts": {
+    "start": "npm run build && npm run parse",
     "build": "node_modules/.bin/jison grammar.jison",
     "parse": "node grammar.js code.hmlsp"
   },
