@@ -1,0 +1,29 @@
+{
+  "name": "hm-lisp",
+  "version": "0.1.0",
+  "description": "A toy lisp language made for the Compilers college class",
+  "scripts": {
+    "build": "node_modules/.bin/jison grammar.jison",
+    "parse": "node grammar.js code.hmlsp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamorim/hm-lisp.git"
+  },
+  "keywords": [
+    "lisp",
+    "compiler",
+    "jison",
+    "college",
+    "toy"
+  ],
+  "author": "Thor Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamorim/hm-lisp/issues"
+  },
+  "homepage": "https://github.com/tamorim/hm-lisp#readme",
+  "dependencies": {
+    "jison": "^0.4.17"
+  }
+}
